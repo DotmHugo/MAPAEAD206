@@ -1,10 +1,6 @@
-/* =========================================================
-    ESTILO DO SITE - Mapa de Polos
-    Autor: você 💪
-    Estilo: moderno, limpo e responsivo
-========================================================= */
 
-/* --- Fonte e Reset Básico --- */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 * {
@@ -14,7 +10,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* ⚠️ ATENÇÃO: Usar um logo como background pode prejudicar a legibilidade ⚠️ */
+
 body {
     background-image: url('background.jpg');
     background-size: cover;
@@ -22,11 +18,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    /* Overlay escuro para aumentar contraste com o texto */
+   
     background-color: rgba(0, 0, 0, 0.45);
-    background-blend-mode: multiply; /* multiply tende a escurecer a imagem */
+    background-blend-mode: multiply; 
 
-    /* Outros estilos existentes */
+    
     color: #fff;
     text-align: center;
     min-height: 100vh;
@@ -35,7 +31,7 @@ body {
     align-items: center;
 }
 
-/* --- Logo fixa no canto superior esquerdo --- */
+
 #senai-logo {
     position: fixed;
     top: 12px;
@@ -55,7 +51,7 @@ body {
     }
 }
 
-/* --- Título --- */
+
 h1 {
     margin: 40px 0 20px 0;
     font-weight: 600;
@@ -64,7 +60,7 @@ h1 {
     text-shadow: 0 2px 6px rgba(0,0,0,0.5); /* Sombra para legibilidade */
 }
 
-/* --- Parágrafo de Descrição --- */
+
 .description {
     color: #ffffff;
     font-weight: 400;
@@ -79,7 +75,7 @@ h1 {
     text-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
 }
 
-/* --- Contêiner do Mapa --- */
+
 #map {
     width: 90%;
     max-width: 1200px;
@@ -99,16 +95,16 @@ h1 {
     box-shadow: 0 12px 45px rgba(0, 0, 0, 0.2);
 }
 
-/* --- Rodapé Simples (caso queira adicionar depois) --- */
+
 footer {
     margin-top: auto;
     padding: 15px 0;
     font-size: 0.9rem;
     color: #666;
-    /* Ajuste a cor do texto do rodapé se ele ficar ilegível */
+    
 }
 
-/* --- Responsividade --- */
+
 @media (max-width: 768px) {
     h1 {
         font-size: 1.8rem;
@@ -131,19 +127,20 @@ footer {
         height: 350px;
     }
 }
-/* Remove o recuo gerado pelo <p> interno do Leaflet */
+
 .leaflet-popup-content p {
     margin: 0 !important;
 }
 
-/* Remove a margem rígida que o Leaflet coloca por padrão */
+
 .leaflet-popup-content {
     margin: 0 !important;
-    padding: 8px 14px !important; /* padding enxuto e alinhado */
+    padding: 8px 14px !important; 
 }
 
-/* Garante que o título não fique colado demais */
+
 .leaflet-popup-content strong {
     display: block;
     margin-bottom: 4px;
 }
+
